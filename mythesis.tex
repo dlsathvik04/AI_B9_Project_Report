@@ -1,0 +1,209 @@
+%AMRITA UNIVERSITY PH.D latex template...Created by Chungath, CYS-CBE%
+
+\documentclass[a4paper, 12pt]{report}
+%\renewcommand{\bibname}{References}
+\usepackage[margin=0.8in]{geometry}
+\usepackage{algorithm}
+\usepackage{algpseudocode}
+
+\usepackage{bold-extra}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage [english]{babel}
+\usepackage [autostyle, english = american]{csquotes}
+\MakeOuterQuote{"}
+%\usepackage[a4paper,top=30mm,bottom=30mm]{geometry}
+\usepackage{setspace}
+\onehalfspacing
+\graphicspath{{images/}}
+\usepackage{amsthm}
+%\usepackage{hyperref}
+%\hypersetup{colourlinks=true,linkcolour=blue}
+\usepackage{array}
+%\usepackage{parskip}
+\usepackage{cite}
+\usepackage{longtable}
+\usepackage{fancyhdr}
+\usepackage{titletoc}
+\theoremstyle{definition}
+\newtheorem{Definition}{Definition}[section]
+
+%-------------------------------------------------------------
+% title page
+\begin{document}
+	\pagenumbering{gobble}
+	\thispagestyle{empty}
+	\begin{large}
+		\begin{center}
+			{\Large\bfseries{Plant Disease Detection using Artificial Intelligence and Machine Learning}}\\
+			\vspace{1.3cm}
+			A PROJECT REPORT \\
+			\vspace{.1cm}
+			Submitted in partial fulfillment for the Degree of\\
+			\vspace{.1cm}
+			Bachelor of Technology under the\\
+			\vspace{.1cm}
+			School of Computing\\
+			\vspace{1cm}
+			
+			\normalsize Submitted by \\
+\begin{table}[h]
+\centering
+\begin{tabular}{lr}\hline \\
+Register No & Names of Students \\ \\ \hline
+\\
+AM.EN.U4AIE21122 & Bollam Shiva Shankara Varaprasad \\
+AM.EN.U4AIE21140 & Lekha Sathvik Devabathini \\
+AM.EN.U4AIE21157 & Satvik Choulapally \\ 
+AM.EN.U4AIE21169 & Yasin Syed \\  \\ \hline 
+\end{tabular}
+\end{table}
+
+
+
+\vfill
+			\includegraphics[scale=0.7]{univA.png}\\
+			DEPARTMENT OF COMPUTER SCIENCE AND ENGINEERING\\
+			\Large{\textbf{AMRITA VISHWA VIDYAPEETHAM}}\\
+			{\large Amritapuri Campus (INDIA)}\\
+			\vspace*{.3cm}
+			December 2024
+		\end{center}
+	\end{large}
+	%------------------------------------------------------------------------------------
+	% bonafide certificate
+	\newpage
+	\begin{center}
+		
+		{\large Department of Computer Science and Engineering}\\
+		\Large{ \textbf{AMRITA VISHWA VIDYAPEETHAM}}\\
+			{\large AMRITAPURI CAMPUS}\\
+		\vspace*{2.2cm}
+		%\includegraphics[width=5cm,height=5cm,keepaspectratio]{university.jpg}
+		\includegraphics[scale=0.5]{univa.png}\\
+		\vspace*{1.5cm}
+		{\Large \textbf{BONAFIDE CERTIFICATE}}
+	\end{center}
+	\vspace*{.8cm}
+	This is to certify that this is a bonafide record of the project presented by the students whose names are given below during Project Phase 1 in partial fulfilment of the requirements of the degree of Bachelor of Technology in Computer Science and Engineering.\\[1.0cm]
+
+\begin{table}[h]
+\centering
+\begin{tabular}{lr}
+Roll No & Names of Students \\ \\ \hline
+\\
+AM.EN.U4AIE21122 & Bollam Shiva Shankara Varaprasad \\
+AM.EN.U4AIE21140 & Lekha Sathvik Devabathini \\
+AM.EN.U4AIE21157 & Satvik Choulapally \\ 
+AM.EN.U4AIE21169 & Yasin Syed \\  
+\end{tabular}
+\end{table}
+
+
+
+% Bottom of the page
+\begin{flushleft}
+  Dr. Gopakumar G.\\
+(Project Guide)\\  [1cm]
+
+ \texttt{<}Coordinator name here\texttt{>}\\
+(Project Coordinator)\\
+Designation\\
+\end{flushleft}
+\begin{flushright}
+\texttt{<}Reviewer's Name\texttt{>}\\
+(Reviewer)\\
+Designation
+\end{flushright}
+
+
+
+
+\newpage
+	%-----------------------------------------------------------------------------
+	\clearpage
+	\pagenumbering{roman}
+	\tableofcontents
+	
+	\chapter*{Acknowledgements}
+	\addcontentsline{toc}{chapter}{Acknowledgements}	
+
+    
+	We want to express our sincere gratitude to those who helped and contributed to completing the project "\textbf{Plant Disease Detection using Artificial Intelligence and Machine Learning}". We are grateful for everyone's support and guidance to enable us to research and engineer to contribute to the sector of agriculture. 
+	
+	\
+
+    We express our sincere gratitude to our guide Dr. Gopakumar G., for guiding, helping and supporting us in every step of this project. Dr. Gopakumar G.'s guidance and expertise have been invaluable throughout the research and development done for this project. It would have been impossible to complete this project without his care and support 
+
+	\
+	
+    We want to thank our advisor and organizer \textbf{Raji} for keeping us organized and guiding us to complete the project on time and providing us with a supportive environment to complete our project. Her contribution to completing this project is priceless.
+
+	\
+	
+    We are grateful for the support of Dr. Divya R for guiding us to effectively complete our project and see that we don't get derailed in our research.
+
+	\
+	
+    We want to express our gratitude to our teachers and friends for their helpful insights and constructive feedback. Their insights and opinions have been invaluable for enriching and improving our project. We are grateful for their time and effort in participating in some of the most valuable discussions to guide and improve the project and help in its successful completion.
+    
+
+    
+	\vspace{1cm}
+	\begin{flushright}
+        Bollam Shiva Shankara Varaprasad
+        
+		Lekha Sathvik Devabathini
+        
+        Satvik Choulapally
+        
+        Yasin Syed
+	\end{flushright}
+	\listoffigures
+	\addcontentsline{toc}{chapter}{List of figures}
+	\listoftables
+	\addcontentsline{toc}{chapter}{List of tables}
+	\newpage
+%\chapter*{Abbreviations}
+
+\chapter*{Abstract}
+\addcontentsline{toc}{chapter}{Abstract} 
+
+ India is an agricultural country, as two-thirds of its population is engaged in agricultural activities, the development in this sector is very important for the country both economically and socially.  The losses in agriculture due to pests and diseases are estimated to be approximately 20-25\%. Despite the significance of the agricultural sector for the country, the application and implementation of Artificial intelligence and machine learning have been limited in the past five years. We must introduce cutting-edge technologies in Artificial intelligence to the agricultural sector to improve the quality of life of farmers and other people in the sector. This project introduces a solution to diagnose the common pests and diseases in plants using Artificial intelligence and Machine learning techniques. The study focuses on implementing a robust solution to classify different plant diseases based on the images mainly focused on the leaves. The project proposes a Vision Transformer(ViT)-based solution with an accuracy of 99 per cent on the test dataset for diagnosis of fourteen different plant diseases across three different crops. The lack of introduction of these technologies can also be interpreted as the consequence absence of good, clean and homogeneous data for training different models. To help the future development of similar solutions the project summarizes the current state of the various famous datasets for usage in production-level solutions development. As the solutions developed are highly dependent on the availability and quality of existing datasets, we propose a clean and efficient way to collect and organize more data for further development. The project also implements and tests how these solutions can be efficiently deployed and made accessible to everyone. The project starts out with an essential focus on the differentiation of the chilli plants that are infected by the leaf curl virus form the healthy ones to eventually generalize the problem of plant disease diagnosis.  Large Language Models(LLM's) are the current trend in making data more accessible to everyone. The project also engineers a solution to introduce the LLM's to make the user more knowledgeable about the disease at hand and also guide him in the process of minimizing the loss due to the pest or disease.
+
+\clearpage
+\pagenumbering{arabic}
+\setcounter{page}{1}
+\chapter{Introduction}
+\input{chapters/introduction}
+\chapter{Literature Review/ Existing System}
+\input{chapters/chapter2}
+\chapter{Proposed Work}
+\input{chapters/chapter3}
+\chapter{Experimentation and Result Analysis}
+\input{chapters/chapter4} 
+\chapter{Conclusion and Scope for further Research}
+\input{chapters/conclusion}
+\appendix
+\chapter{title of appendix}
+\input{chapters/appendix}
+
+%\addcontentsline{toc}{chapter}{\textbf{References}}
+\newpage
+\renewcommand{\bibname}{References}
+\bibliographystyle{ieeetr}
+\addcontentsline{toc}{chapter}{References}
+\bibliography{mybib}
+
+
+
+\noindent \textbf{\Large Papers Communicated}
+\begin{enumerate}
+	\item [5.] Mr. X, Mr. U, Mr. V and Mr.Z , "Efficient Computations in Operating Systems", (Communicated in Sept. 2018).
+\end{enumerate}
+
+\end{document}
+	
+	
