@@ -3,7 +3,15 @@
 
 \section{Existing System Study}
 
-\subsection{For Research/Product based Projects}
+There have been a significant amount of research to introduce Artificial Intelligence and Machine Learning technologies to the field of agriculture to minimize the losses due to diseases and pests. These researches and solutions help us build better solutions in the current project. An extensive study is done to explore and analyze the existing systems and solutions that are trying to solve similar problems.
+
+\
+
+In the paper \textbf{Construction of deep learning-based disease detection model in plants} Minah Jung et al. proposed a Deep Learning based framework for the construction of disease detection models in plants. The solution is designed to work in three steps namely: Crop Classification, Disease Detection and Disease Classification\cite{jung2023construction}. The segregation of responsibility and labour in the proposed solution can be leveraged to efficiently scale the built solution. Also as the division on labour is clear and strict the retraining cost for the solution can be minimized by limiting the changes to the concerned model. Even though the solution developed in the paper have inconsistent performance across different plant species, the modularity of the architecture allows us to correct what went wrong without disturbing what went right. Even though the proposed solution can be horizontally scaled on demand due to it's well defined modularity, an ill deployed solution can be computationally expensive and can be heavy on computation due to large chain of action. This introduces the cost of latency in return for the ease of systematic and efficient training and deployment. 
+
+\
+
+In the paper \textbf{Dense convolutional neural networks based multiclass plant disease detection and classification using leaf images }, Vibhav et al. proposed a Dense Neural Network architecture for plant disease classification. The proposed solution is highly accurate on the used dataset with an impressive response time of 16ms per image for classification. Even though the proposed solution's performance is inconsistent across different classes, the paper sheds light on how a centralized monolithic model performs in the disease detection tasks. In contrast to the Minah Jung et al's work the current solution may not have a good division of responsibility and retraining efficiency, the solution boasts a significantly better performance in deployment. The paper does not provide any information about the steps taken to clean or balance the dataset for training.
 
 Do a literature survey and identify five most suitable base papers that align with your project. Select the top journal/conference paper which are recent in the area, which has addressed this problem. For each of those papers, write a
 paragraph that subsumes, Contributions of the paper: (A short paragraph of less than 50 words) , Limitations of the paper : (A short paragraph of less than 50 words) , Open Problems/Future work possible: (Enumerate the list) 
@@ -24,5 +32,5 @@ Limitations/ problems not addressed in existing systems Point out the specific s
 
 \begin{enumerate}
     \item Problem Statement: Clearly articulate the specific challenge you aim to solve. Ensure it flows naturally from the gaps identified in the previous slide. Use precise, concise language to define the problem scope.
-    \item  Research Contributions Present 2–4 clear, measurable research contribution of your work. For Research Projects: Focus on advancing knowledge, developing methodologies, or validating hypotheses. For Product-Based Projects: Focus on delivering a functional, innovative solution with specific features or improvements.
+    \item  Research Contributions Present 2-4 clear, measurable research contribution of your work. For Research Projects: Focus on advancing knowledge, developing methodologies, or validating hypotheses. For Product-Based Projects: Focus on delivering a functional, innovative solution with specific features or improvements.
 \end{enumerate}
