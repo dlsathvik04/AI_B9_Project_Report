@@ -27,18 +27,21 @@
 \contentsline {subsection}{\numberline {3.3.8}Limitations and Assumptions}{22}{}%
 \contentsline {chapter}{\numberline {4}Experimentation and Result Analysis}{23}{}%
 \contentsline {section}{\numberline {4.1}Experimental Setup}{23}{}%
-\contentsline {section}{\numberline {4.2}Datasets:}{23}{}%
-\contentsline {section}{\numberline {4.3}Evaluation Metrics:}{23}{}%
-\contentsline {section}{\numberline {4.4}Experimental Design}{23}{}%
-\contentsline {subsection}{\numberline {4.4.1}Experimental Scenarios:}{24}{}%
-\contentsline {subsection}{\numberline {4.4.2}Parameter Tuning:}{24}{}%
-\contentsline {section}{\numberline {4.5}Results}{24}{}%
-\contentsline {section}{\numberline {4.6} Analysis of Results}{24}{}%
-\contentsline {section}{\numberline {4.7}Observations:}{24}{}%
-\contentsline {section}{\numberline {4.8} Comparative Analysis}{24}{}%
-\contentsline {chapter}{\numberline {5}Conclusion and Scope for further Research}{25}{}%
-\contentsline {section}{\numberline {5.1}Conclusion}{25}{}%
-\contentsline {section}{\numberline {5.2}Future Scope}{26}{}%
-\contentsline {chapter}{\numberline {A}title of appendix}{27}{}%
-\contentsline {chapter}{References}{28}{}%
+\contentsline {subsection}{\numberline {4.1.1}Machine Learning and Deep Learning}{23}{}%
+\contentsline {subsection}{\numberline {4.1.2}Development and Deployment}{23}{}%
+\contentsline {section}{\numberline {4.2}Evaluation Metrics:}{24}{}%
+\contentsline {section}{\numberline {4.3}Experimental Design}{25}{}%
+\contentsline {subsection}{\numberline {4.3.1}Experimental Scenarios:}{25}{}%
+\contentsline {subsection}{\numberline {4.3.2}Parameter Tuning:}{26}{}%
+\contentsline {section}{\numberline {4.4}Results}{26}{}%
+\contentsline {subsection}{\numberline {4.4.1}MobileNetV2}{26}{}%
+\contentsline {subsection}{\numberline {4.4.2}ResNet50}{27}{}%
+\contentsline {section}{\numberline {4.5} Analysis of Results}{27}{}%
+\contentsline {section}{\numberline {4.6}Observations:}{27}{}%
+\contentsline {section}{\numberline {4.7} Comparative Analysis}{28}{}%
+\contentsline {chapter}{\numberline {5}Conclusion and Scope for further Research}{29}{}%
+\contentsline {section}{\numberline {5.1}Conclusion}{29}{}%
+\contentsline {section}{\numberline {5.2}Future Scope}{30}{}%
+\contentsline {chapter}{\numberline {A}title of appendix}{31}{}%
+\contentsline {chapter}{References}{32}{}%
 \contentsfinish 
