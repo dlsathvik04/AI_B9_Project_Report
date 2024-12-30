@@ -7,6 +7,10 @@
 \contentsline {table}{\numberline {4.1}{\ignorespaces Baseline SVM classification metrics}}{25}{}%
 \contentsline {table}{\numberline {4.2}{\ignorespaces Classification Report for MobileNetV2}}{27}{}%
 \contentsline {table}{\numberline {4.3}{\ignorespaces Classification Report for ResNet50}}{28}{}%
+\contentsline {table}{\numberline {4.4}{\ignorespaces Classification Report for EfficientNetB0}}{29}{}%
+\contentsline {table}{\numberline {4.5}{\ignorespaces Classification Report for InceptionV3}}{30}{}%
+\contentsline {table}{\numberline {4.6}{\ignorespaces Classification Report for DenseNet121}}{31}{}%
+\contentsline {table}{\numberline {4.7}{\ignorespaces Classification Report for Vision Transformer}}{31}{}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \contentsfinish 

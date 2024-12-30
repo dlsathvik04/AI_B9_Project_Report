@@ -36,12 +36,16 @@
 \contentsline {section}{\numberline {4.4}Results}{26}{}%
 \contentsline {subsection}{\numberline {4.4.1}MobileNetV2}{26}{}%
 \contentsline {subsection}{\numberline {4.4.2}ResNet50}{27}{}%
-\contentsline {section}{\numberline {4.5} Analysis of Results}{27}{}%
-\contentsline {section}{\numberline {4.6}Observations:}{27}{}%
-\contentsline {section}{\numberline {4.7} Comparative Analysis}{28}{}%
-\contentsline {chapter}{\numberline {5}Conclusion and Scope for further Research}{29}{}%
-\contentsline {section}{\numberline {5.1}Conclusion}{29}{}%
-\contentsline {section}{\numberline {5.2}Future Scope}{30}{}%
-\contentsline {chapter}{\numberline {A}title of appendix}{31}{}%
-\contentsline {chapter}{References}{32}{}%
+\contentsline {subsection}{\numberline {4.4.3}EfficientNetB0}{27}{}%
+\contentsline {subsection}{\numberline {4.4.4}InceptionV3}{28}{}%
+\contentsline {subsection}{\numberline {4.4.5}DenseNet121}{28}{}%
+\contentsline {subsection}{\numberline {4.4.6}Google/ViT-base-patch16-224}{29}{}%
+\contentsline {section}{\numberline {4.5} Analysis of Results}{29}{}%
+\contentsline {section}{\numberline {4.6}Observations:}{29}{}%
+\contentsline {section}{\numberline {4.7} Comparative Analysis}{30}{}%
+\contentsline {chapter}{\numberline {5}Conclusion and Scope for further Research}{32}{}%
+\contentsline {section}{\numberline {5.1}Conclusion}{32}{}%
+\contentsline {section}{\numberline {5.2}Future Scope}{33}{}%
+\contentsline {chapter}{\numberline {A}title of appendix}{34}{}%
+\contentsline {chapter}{References}{35}{}%
 \contentsfinish 

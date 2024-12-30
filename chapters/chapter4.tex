@@ -199,7 +199,168 @@ The model got trained for a total of 38 epochs. The model was eventually stopped
     \label{tab:classification_report_rn50}
     \end{table}
     
+\subsection{EfficientNetB0}
+
+The EfficientNetB0 model is trained in the mentioned conditions. The model recorded a trining speed of nearly 35ms per training step. When model is used for prediction of single images (without batch prediction), the model recorded a speed of approximately 55ms per image. 
+
+\
+
+The model got trained for a total of 38 epochs. The model was eventually stopped due to early stopping callback. The model's initial number of epochs is limited to 40. The model recorded a test accuracy of 96.18\% (Refer to Table 4.4).
+
+\begin{table}[h!]
+    \centering
+    \resizebox{\textwidth}{!}{%
+    \begin{tabular}{|l|c|c|c|c|}
+    \hline
+    \textbf{Class}                                    & \textbf{Precision} & \textbf{Recall} & \textbf{F1-Score} & \textbf{Support} \\ \hline
+    00 Chilli - Healthy                               & 1.00               & 0.70            & 0.82              & 23               \\ \hline
+    01 Chilli - Leaf Curl Virus                       & 0.83               & 1.00            & 0.91              & 35               \\ \hline
+    02 Pepper Bell - Bacterial Spot                   & 1.00               & 0.97            & 0.99              & 35               \\ \hline
+    03 Pepper Bell - Healthy                          & 0.97               & 1.00            & 0.99              & 35               \\ \hline
+    04 Potato - Early Blight                          & 0.97               & 0.94            & 0.96              & 35               \\ \hline
+    05 Potato - Healthy                               & 1.00               & 0.96            & 0.98              & 28               \\ \hline
+    06 Potato - Late Blight                           & 0.97               & 1.00            & 0.99              & 35               \\ \hline
+    07 Tomato - Bacterial Spot                        & 1.00               & 1.00            & 1.00              & 35               \\ \hline
+    08 Tomato - Early Blight                          & 0.97               & 0.91            & 0.94              & 35               \\ \hline
+    09 Tomato - Healthy                               & 0.95               & 1.00            & 0.97              & 35               \\ \hline
+    10 Tomato - Late Blight                           & 0.94               & 0.97            & 0.96              & 35               \\ \hline
+    11 Tomato - Leaf Mold                             & 0.95               & 1.00            & 0.97              & 35               \\ \hline
+    12 Tomato - Mosaic Virus                          & 1.00               & 0.94            & 0.97              & 35               \\ \hline
+    13 Tomato - Septoria Leaf Spot                    & 0.97               & 0.97            & 0.97              & 35               \\ \hline
+    14 Tomato - Target Spot                           & 0.97               & 0.89            & 0.93              & 35               \\ \hline
+    15 Tomato - Two Spotted Spider Mite               & 0.92               & 1.00            & 0.96              & 35               \\ \hline
+    16 Tomato - Yellow Leaf Curl Virus                & 1.00               & 1.00            & 1.00              & 35               \\ \hline
+    \textbf{Accuracy}                                 & \multicolumn{3}{c|}{0.96}            & 576              \\ \hline
+    \textbf{Macro Avg}                                & 0.97               & 0.96            & 0.96              & 576              \\ \hline
+    \textbf{Weighted Avg}                             & 0.96               & 0.96            & 0.96              & 576              \\ \hline
+    \end{tabular}%
+    }
+    \caption{Classification Report for EfficientNetB0}
+    \label{tab:classification_report_en}
+\end{table}
+
+
+\subsection{InceptionV3}
+
+The InceptionV3 model is trained in the mentioned conditions. The model recorded a trining speed of nearly 50ms per training step. When model is used for prediction of single images (without batch prediction), the model recorded a speed of approximately 64ms per image. 
+
+\
+
+The model got trained for full 40 epochs till limit. The model recorded a test accuracy of 85.24\% (Refer to Table 4.5).
+
+\begin{table}[h!]
+    \centering
+    \resizebox{\textwidth}{!}{%
+    \begin{tabular}{|l|c|c|c|c|}
+    \hline
+    \textbf{Class}                                    & \textbf{Precision} & \textbf{Recall} & \textbf{F1-Score} & \textbf{Support} \\ \hline
+    00 Chilli - Healthy                               & 1.00               & 0.43            & 0.61              & 23               \\ \hline
+    01 Chilli - Leaf Curl Virus                       & 0.74               & 1.00            & 0.85              & 35               \\ \hline
+    02 Pepper Bell - Bacterial Spot                   & 0.92               & 0.94            & 0.93              & 35               \\ \hline
+    03 Pepper Bell - Healthy                          & 0.97               & 0.94            & 0.96              & 35               \\ \hline
+    04 Potato - Early Blight                          & 0.94               & 0.94            & 0.94              & 35               \\ \hline
+    05 Potato - Healthy                               & 1.00               & 0.82            & 0.90              & 28               \\ \hline
+    06 Potato - Late Blight                           & 0.83               & 0.97            & 0.89              & 35               \\ \hline
+    07 Tomato - Bacterial Spot                        & 0.89               & 0.91            & 0.90              & 35               \\ \hline
+    08 Tomato - Early Blight                          & 0.83               & 0.54            & 0.66              & 35               \\ \hline
+    09 Tomato - Healthy                               & 0.94               & 0.94            & 0.94              & 35               \\ \hline
+    10 Tomato - Late Blight                           & 0.79               & 0.94            & 0.86              & 35               \\ \hline
+    11 Tomato - Leaf Mold                             & 0.79               & 0.77            & 0.78              & 35               \\ \hline
+    12 Tomato - Mosaic Virus                          & 0.93               & 0.71            & 0.81              & 35               \\ \hline
+    13 Tomato - Septoria Leaf Spot                    & 0.78               & 0.83            & 0.81              & 35               \\ \hline
+    14 Tomato - Target Spot                           & 0.74               & 0.74            & 0.74              & 35               \\ \hline
+    15 Tomato - Two Spotted Spider Mite               & 0.73               & 0.91            & 0.81              & 35               \\ \hline
+    16 Tomato - Yellow Leaf Curl Virus                & 0.92               & 0.97            & 0.94              & 35               \\ \hline
+    \textbf{Accuracy}                                 & \multicolumn{3}{c|}{0.85}            & 576              \\ \hline
+    \textbf{Macro Avg}                                & 0.87               & 0.84            & 0.84              & 576              \\ \hline
+    \textbf{Weighted Avg}                             & 0.86               & 0.85            & 0.85              & 576              \\ \hline
+    \end{tabular}%
+    }
+    \caption{Classification Report for InceptionV3}
+    \label{tab:classification_report_inv3}
+\end{table}
+
+\subsection{DenseNet121}
+
+The DenseNet121 model is trained in the mentioned conditions. The model recorded a trining speed of nearly 68ms per training step. When model is used for prediction of single images (without batch prediction), the model recorded a speed of approximately 76ms per image. 
+
+\
+
+The model got trained for a total of 33 epochs. The model was eventually stopped due to early stopping callback. The model's initial number of epochs is limited to 40. The model recorded a test accuracy of 86.98\% (Refer to Table 4.6).
+
+\begin{table}[h!]
+    \centering
+    \resizebox{\textwidth}{!}{%
+    \begin{tabular}{|l|c|c|c|c|}
+    \hline
+    \textbf{Class}                                    & \textbf{Precision} & \textbf{Recall} & \textbf{F1-Score} & \textbf{Support} \\ \hline
+    00 Chilli - Healthy                               & 0.00               & 0.00            & 0.00              & 23               \\ \hline
+    01 Chilli - Leaf Curl Virus                       & 0.58               & 0.89            & 0.70              & 35               \\ \hline
+    02 Pepper Bell - Bacterial Spot                   & 1.00               & 0.97            & 0.99              & 35               \\ \hline
+    03 Pepper Bell - Healthy                          & 0.97               & 1.00            & 0.99              & 35               \\ \hline
+    04 Potato - Early Blight                          & 0.94               & 0.94            & 0.94              & 35               \\ \hline
+    05 Potato - Healthy                               & 1.00               & 0.50            & 0.67              & 28               \\ \hline
+    06 Potato - Late Blight                           & 0.68               & 0.97            & 0.80              & 35               \\ \hline
+    07 Tomato - Bacterial Spot                        & 0.92               & 0.97            & 0.94              & 35               \\ \hline
+    08 Tomato - Early Blight                          & 0.89               & 0.71            & 0.79              & 35               \\ \hline
+    09 Tomato - Healthy                               & 0.90               & 1.00            & 0.95              & 35               \\ \hline
+    10 Tomato - Late Blight                           & 0.82               & 0.94            & 0.88              & 35               \\ \hline
+    11 Tomato - Leaf Mold                             & 0.97               & 0.94            & 0.96              & 35               \\ \hline
+    12 Tomato - Mosaic Virus                          & 1.00               & 0.94            & 0.97              & 35               \\ \hline
+    13 Tomato - Septoria Leaf Spot                    & 0.87               & 0.94            & 0.90              & 35               \\ \hline
+    14 Tomato - Target Spot                           & 0.80               & 0.80            & 0.80              & 35               \\ \hline
+    15 Tomato - Two Spotted Spider Mite               & 0.91               & 0.91            & 0.91              & 35               \\ \hline
+    16 Tomato - Yellow Leaf Curl Virus                & 0.97               & 0.97            & 0.97              & 35               \\ \hline
+    \textbf{Accuracy}                                 & \multicolumn{3}{c|}{0.87}            & 576              \\ \hline
+    \textbf{Macro Avg}                                & 0.84               & 0.85            & 0.83              & 576              \\ \hline
+    \textbf{Weighted Avg}                             & 0.85               & 0.87            & 0.85              & 576              \\ \hline
+    \end{tabular}%
+    }
+    \caption{Classification Report for DenseNet121}
+    \label{tab:classification_report_dn121}
+    \end{table}
+
+\subsection{Google/ViT-base-patch16-224}
+
+The ViT model is trained in the mentioned conditions. The model is more complex compared to the other models and the training and testing times are considerably higher. The model took about 3 hours to train and each image takes about 100ms to get a prediction.
+
+The complexity and power pays off when it comes to performance and reliability. The model got a test accuracy of 99\% (Refer to table 4.7).
+
+\begin{table}[h!]
+    \centering
+    \resizebox{\textwidth}{!}{%
+    \begin{tabular}{|l|c|c|c|c|}
+    \hline
+    \textbf{Class}                                    & \textbf{Precision} & \textbf{Recall} & \textbf{F1-Score} & \textbf{Support} \\ \hline
+    00 Chilli - Healthy                               & 0.95               & 0.87            & 0.91              & 23               \\ \hline
+    01 Chilli - Leaf Curl Virus                       & 0.92               & 0.97            & 0.94              & 35               \\ \hline
+    02 Pepper Bell - Bacterial Spot                   & 1.00               & 1.00            & 1.00              & 35               \\ \hline
+    03 Pepper Bell - Healthy                          & 1.00               & 1.00            & 1.00              & 35               \\ \hline
+    04 Potato - Early Blight                          & 0.97               & 1.00            & 0.99              & 35               \\ \hline
+    05 Potato - Healthy                               & 0.97               & 1.00            & 0.98              & 28               \\ \hline
+    06 Potato - Late Blight                           & 1.00               & 0.97            & 0.99              & 35               \\ \hline
+    07 Tomato - Bacterial Spot                        & 1.00               & 1.00            & 1.00              & 35               \\ \hline
+    08 Tomato - Early Blight                          & 1.00               & 0.97            & 0.99              & 35               \\ \hline
+    09 Tomato - Healthy                               & 1.00               & 1.00            & 1.00              & 35               \\ \hline
+    10 Tomato - Late Blight                           & 1.00               & 1.00            & 1.00              & 35               \\ \hline
+    11 Tomato - Leaf Mold                             & 1.00               & 1.00            & 1.00              & 35               \\ \hline
+    12 Tomato - Mosaic Virus                          & 1.00               & 1.00            & 1.00              & 35               \\ \hline
+    13 Tomato - Septoria Leaf Spot                    & 1.00               & 1.00            & 1.00              & 35               \\ \hline
+    14 Tomato - Target Spot                           & 1.00               & 1.00            & 1.00              & 35               \\ \hline
+    15 Tomato - Two Spotted Spider Mite               & 1.00               & 1.00            & 1.00              & 35               \\ \hline
+    16 Tomato - Yellow Leaf Curl Virus                & 1.00               & 1.00            & 1.00              & 35               \\ \hline
+    \textbf{Accuracy}                                 & \multicolumn{3}{c|}{0.99}            & 576              \\ \hline
+    \textbf{Macro Avg}                                & 0.99               & 0.99            & 0.99              & 576              \\ \hline
+    \textbf{Weighted Avg}                             & 0.99               & 0.99            & 0.99              & 576              \\ \hline
+    \end{tabular}%
+    }
+    \caption{Classification Report for Vision Transformer}
+    \label{tab:classification_report}
+\end{table}
     
+\
+
+The model got trained for a total of 33 epochs. The model was eventually stopped due to early stopping callback. The model's initial number of epochs is limited to 40. The model recorded a test accuracy of 86.98\% (Refer to Table 4.6).
 
 \section{ Analysis of Results}
  Interpret the results and explain their significance.
