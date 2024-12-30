@@ -43,9 +43,9 @@
 \contentsline {section}{\numberline {4.5} Analysis of Results}{29}{}%
 \contentsline {section}{\numberline {4.6}Observations:}{30}{}%
 \contentsline {section}{\numberline {4.7} Comparative Analysis}{32}{}%
-\contentsline {chapter}{\numberline {5}Conclusion and Scope for further Research}{33}{}%
-\contentsline {section}{\numberline {5.1}Conclusion}{33}{}%
-\contentsline {section}{\numberline {5.2}Future Scope}{34}{}%
-\contentsline {chapter}{\numberline {A}title of appendix}{35}{}%
-\contentsline {chapter}{References}{36}{}%
+\contentsline {chapter}{\numberline {5}Conclusion and Scope for further Research}{35}{}%
+\contentsline {section}{\numberline {5.1}Conclusion}{35}{}%
+\contentsline {section}{\numberline {5.2}Future Scope}{36}{}%
+\contentsline {chapter}{\numberline {A}title of appendix}{37}{}%
+\contentsline {chapter}{References}{38}{}%
 \contentsfinish 

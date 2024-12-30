@@ -412,3 +412,22 @@ The same architectures replicated form the paper showed inconsistent results due
     \label{tab:plant_disease}
 \end{table}
 
+The Vision Transformer model developed during this project performs on par with the other best models that are previously developed. The ViT model is superior in the ability to generalize and focus on the parts of the image that really matter. 
+
+The Vision Transformer model has superior performance but it is heavy on resources the latency and training overhead of the Vision Transformer makes it significantly harder to train or deploy. It is expensive to add new data to the Vision Transformer compared to the less complex models such as EfficientNetB0. The EfficientNetB0 model is suitable for deployment at the edge, the ViT can't be deployed at edge due to its large size and heavy resource usage In the experiments conducted the most reliable and accurate model is Vision Transformer. The ViT beats all other model in all metrics of Accuracy, Precision and Recall. The performance of all the models trained is given in figure 4.4.
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[scale=0.5]{model_performance.png}
+    \caption{Model Performance Comparison}
+    \label{fig:model_performance}
+\end{figure}
+
+The training cost of the model can be measured or interpreted through the time taken for a single train step. This metric is useful in comparing the training efficiencies of different models. From the figure 4.5 it is evident that the MobileNetV2 is most efficient and is light on resources, while the Vision Transformer model is nearly thrice as heavy on resources in both training and inference. 
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[scale=0.5]{latencies.png}
+    \caption{Model Latency and resource usage Comparison}
+    \label{fig:latency}
+\end{figure}
