@@ -10,6 +10,8 @@
 \contentsline {figure}{\numberline {4.1}{\ignorespaces Class distribution of the dataset used for training}}{24}{}%
 \contentsline {figure}{\numberline {4.2}{\ignorespaces feature extraction for SVM}}{25}{}%
 \contentsline {figure}{\numberline {4.3}{\ignorespaces Bias due to Conditions during capture}}{31}{}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Model Performance Comparison}}{33}{}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Model Latency and resource usage Comparison}}{34}{}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \contentsfinish 

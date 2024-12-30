@@ -538,6 +538,16 @@ INPUT ./images//ds_bias.png
 INPUT images//ds_bias.png
 INPUT ./images//ds_bias.png
 INPUT ./images//ds_bias.png
+INPUT ./images//model_performance.png
+INPUT ./images//model_performance.png
+INPUT images//model_performance.png
+INPUT ./images//model_performance.png
+INPUT ./images//model_performance.png
+INPUT ./images//latencies.png
+INPUT ./images//latencies.png
+INPUT images//latencies.png
+INPUT ./images//latencies.png
+INPUT ./images//latencies.png
 INPUT ./chapters/conclusion.tex
 INPUT ./chapters/conclusion.tex
 INPUT ./chapters/conclusion.tex
