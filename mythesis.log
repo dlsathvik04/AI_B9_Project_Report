@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.12.28)  30 DEC 2024 23:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.12.28)  31 DEC 2024 00:53
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -605,30 +605,56 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[29]) [30] [31]
+[29] [30]
+<images//ds_bias.png, id=150, 1337.99875pt x 721.69624pt>
+File: images//ds_bias.png Graphic file (type png)
+<use images//ds_bias.png>
+Package pdftex.def Info: images//ds_bias.png  used on input line 393.
+(pdftex.def)             Requested size: 401.40273pt x 216.51054pt.
+ [31 <./images//ds_bias.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 407--407
+[]|\OT1/cmr/m/n/12 Vision Trans-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 408--408
+[]|\OT1/cmr/m/n/12 Construction of deep
+ []
+
+
+Underfull \hbox (badness 1448) in paragraph at lines 408--408
+\OT1/cmr/m/n/12 learning-based dis-ease de-
+ []
+
+
+Underfull \hbox (badness 1418) in paragraph at lines 409--409
+\OT1/cmr/m/n/12 net-works based mul-ti-class
+ []
+
+) [32]
 Chapter 5.
-(./chapters/conclusion.tex [32
+(./chapters/conclusion.tex [33
 
-]) [33]
+]) [34]
 Appendix A.
-(./chapters/appendix.tex) [34
+(./chapters/appendix.tex) [35
 
-] (./mythesis.bbl) [35
+] (./mythesis.bbl) [36
 
 ] (./mythesis.aux) ) 
 Here is how much of TeX's memory you used:
- 6533 strings out of 478287
- 102646 string characters out of 5849288
- 451736 words of memory out of 5000000
- 24603 multiletter control sequences out of 15000+600000
+ 6543 strings out of 478287
+ 102857 string characters out of 5849288
+ 451758 words of memory out of 5000000
+ 24612 multiletter control sequences out of 15000+600000
  476881 words of font info for 56 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,11n,62p,2734b,342s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/dlsathvik04/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1200.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on mythesis.pdf (43 pages, 1412336 bytes).
+Output written on mythesis.pdf (44 pages, 2644683 bytes).
 PDF statistics:
- 224 PDF objects out of 1000 (max. 8388607)
- 139 compressed objects within 2 object streams
+ 229 PDF objects out of 1000 (max. 8388607)
+ 141 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 41 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 46 words of extra memory for PDF output out of 10000 (max. 10000000)
 

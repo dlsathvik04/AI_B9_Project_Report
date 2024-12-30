@@ -41,11 +41,11 @@
 \contentsline {subsection}{\numberline {4.4.5}DenseNet121}{28}{}%
 \contentsline {subsection}{\numberline {4.4.6}Google/ViT-base-patch16-224}{29}{}%
 \contentsline {section}{\numberline {4.5} Analysis of Results}{29}{}%
-\contentsline {section}{\numberline {4.6}Observations:}{29}{}%
-\contentsline {section}{\numberline {4.7} Comparative Analysis}{30}{}%
-\contentsline {chapter}{\numberline {5}Conclusion and Scope for further Research}{32}{}%
-\contentsline {section}{\numberline {5.1}Conclusion}{32}{}%
-\contentsline {section}{\numberline {5.2}Future Scope}{33}{}%
-\contentsline {chapter}{\numberline {A}title of appendix}{34}{}%
-\contentsline {chapter}{References}{35}{}%
+\contentsline {section}{\numberline {4.6}Observations:}{30}{}%
+\contentsline {section}{\numberline {4.7} Comparative Analysis}{32}{}%
+\contentsline {chapter}{\numberline {5}Conclusion and Scope for further Research}{33}{}%
+\contentsline {section}{\numberline {5.1}Conclusion}{33}{}%
+\contentsline {section}{\numberline {5.2}Future Scope}{34}{}%
+\contentsline {chapter}{\numberline {A}title of appendix}{35}{}%
+\contentsline {chapter}{References}{36}{}%
 \contentsfinish 

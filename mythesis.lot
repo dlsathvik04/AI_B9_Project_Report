@@ -10,7 +10,8 @@
 \contentsline {table}{\numberline {4.4}{\ignorespaces Classification Report for EfficientNetB0}}{29}{}%
 \contentsline {table}{\numberline {4.5}{\ignorespaces Classification Report for InceptionV3}}{30}{}%
 \contentsline {table}{\numberline {4.6}{\ignorespaces Classification Report for DenseNet121}}{31}{}%
-\contentsline {table}{\numberline {4.7}{\ignorespaces Classification Report for Vision Transformer}}{31}{}%
+\contentsline {table}{\numberline {4.7}{\ignorespaces Classification Report for Vision Transformer}}{32}{}%
+\contentsline {table}{\numberline {4.8}{\ignorespaces Comparison of Research Papers on Plant Disease Detection}}{32}{}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \contentsfinish 

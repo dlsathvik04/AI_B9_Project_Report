@@ -324,7 +324,13 @@ The model got trained for a total of 33 epochs. The model was eventually stopped
 
 The ViT model is trained in the mentioned conditions. The model is more complex compared to the other models and the training and testing times are considerably higher. The model took about 3 hours to train and each image takes about 100ms to get a prediction.
 
+\
+
 The complexity and power pays off when it comes to performance and reliability. The model got a test accuracy of 99\% (Refer to table 4.7).
+
+\
+
+The model got trained for a total of 33 epochs. The model was eventually stopped due to early stopping callback. The model's initial number of epochs is limited to 40. The model recorded a test accuracy of 86.98\% (Refer to Table 4.6).
 
 \begin{table}[h!]
     \centering
@@ -357,22 +363,52 @@ The complexity and power pays off when it comes to performance and reliability. 
     \caption{Classification Report for Vision Transformer}
     \label{tab:classification_report}
 \end{table}
-    
-\
 
-The model got trained for a total of 33 epochs. The model was eventually stopped due to early stopping callback. The model's initial number of epochs is limited to 40. The model recorded a test accuracy of 86.98\% (Refer to Table 4.6).
 
 \section{ Analysis of Results}
- Interpret the results and explain their significance.
 
-\section{Observations:} Discuss patterns or anomalies observed in the results.
-Example: "The proposed model outperforms baseline methods for dense graphs but shows reduced performance for sparse graphs."
-Insights: Relate the results back to the research objectives and literature gaps.
-Example: "The results validate the proposed hybrid approach's effectiveness in handling dynamic networks, addressing the scalability issue highlighted in the literature."
-Statistical Significance (if applicable): Include significance testing to strengthen claims.
+Among the Deep Neural networks without any self attention mechanism EfficientNetB0 performed the best with a great accuracy and efficiency. The model seems to be the best match to implement at edge. The model provided a sweet spot for speed and accuracy.
+
+\
+
+The Vision Transformer model performed the best with 99.8\% accuracy. The model is heavy on resource utilization but it is the only model that is properly generelized over all the classes. The attention mechanism helps to focus on the parts of the image that really matter. While the EfficientNetB0 is a good pick for edge deployment, the ViT model is ideal for cloud deployment.
+
+\
+
+The results observed in the experiments varied form the ones reported in the previous studies due to the introduction new manually collected images into the dataset. The homogeneity of a single dataset is far from the real world images the model have to predict.
+
+\section{Observations:} 
+The dataset made from the custom images and public datasets have a significant imbalance. There are also biases in the dataset that can make the models hallucinate or pick up wrong generalizations.
+
+\
+
+Through the experiments conducted, it is observed that the models without attention mechanism faced challenges in classification due to the long tailed nature of the dataset. It is evident through the observation that the model suffers more for the class with lesser number of samples.
+
+\
+
+An unintended but unavoidable bias is introduced due to the addition of the images taken directly in the field to the plant village dataset. This is due to the huge number of images in the Plant Village dataset are taken in vastly different conditions compared to the images of the chilli plants that are directly taken in the field. This bias is making the models to hallucinate that all the images taken in the fields belong to the chilli plants.
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[scale=0.3]{ds_bias.png}
+    \caption{Bias due to Conditions during capture}
+    \label{fig:ds_bias}
+\end{figure}
+
+The same architectures replicated form the paper showed inconsistent results due to the changes in the dataset.
+
 \section{ Comparative Analysis}
- Provide a side-by-side comparison of your results with those of existing methods.
 
-Include a table summarizing metrics for all methods.
-Discuss the relative advantages or limitations of your approach.
-Example: "While the runtime of the proposed model is slightly higher than node2vec, it achieves significantly better precision."
+\begin{table}[h!]
+    \centering
+    \begin{tabular}{|m{5cm}|m{4cm}|m{3cm}|m{3cm}|}
+    \hline
+    \textbf{Research Paper} & \textbf{Dataset Used} & \textbf{Accuracy} & \textbf{Model Used} \\ \hline
+    Current Project & PlantVillage + Manually collected data & 99.8\% & Vision Transformer \\ \hline
+    Construction of deep learning-based disease detection model in plants & PlantVillage dataset & 99.69\% & GoogleNet \\ \hline
+    Dense convolutional neural networks based multiclass plant disease detection and classification using leaf images & PlantVillage dataset & 99.25\% & DenseNet201 \\ \hline
+    \end{tabular}
+    \caption{Comparison of Research Papers on Plant Disease Detection}
+    \label{tab:plant_disease}
+\end{table}
+
