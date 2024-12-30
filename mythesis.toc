@@ -11,31 +11,34 @@
 \contentsline {chapter}{\numberline {2}Literature Review/ Existing System}{5}{}%
 \contentsline {section}{\numberline {2.1}Existing System Study}{5}{}%
 \contentsline {section}{\numberline {2.2}Research Gap/ Scope for improvement and innovation}{6}{}%
-\contentsline {section}{\numberline {2.3}Problem Statement and Contributions}{6}{}%
-\contentsline {chapter}{\numberline {3}Proposed Work}{7}{}%
-\contentsline {section}{\numberline {3.1}Proped Work}{7}{}%
-\contentsline {subsection}{\numberline {3.1.1} Objectives of the Proposed Work}{7}{}%
-\contentsline {section}{\numberline {3.2} Methodology}{7}{}%
-\contentsline {subsection}{\numberline {3.2.1}Overview of the Approach:}{7}{}%
-\contentsline {subsection}{\numberline {3.2.2}Dataset Selection:}{7}{}%
-\contentsline {subsection}{\numberline {3.2.3}Algorithm/Model Design:}{7}{}%
-\contentsline {subsection}{\numberline {3.2.4}Tools and Technologies:}{8}{}%
-\contentsline {subsection}{\numberline {3.2.5}Algorithm or Model Description}{8}{}%
-\contentsline {subsection}{\numberline {3.2.6} Expected Outcomes}{8}{}%
-\contentsline {subsection}{\numberline {3.2.7}Advantages of the Proposed Work}{8}{}%
-\contentsline {subsection}{\numberline {3.2.8}Limitations and Assumptions}{8}{}%
-\contentsline {chapter}{\numberline {4}Experimentation and Result Analysis}{9}{}%
-\contentsline {section}{\numberline {4.1}Experimental Setup}{9}{}%
-\contentsline {section}{\numberline {4.2}Datasets:}{9}{}%
-\contentsline {section}{\numberline {4.3}Evaluation Metrics:}{9}{}%
-\contentsline {section}{\numberline {4.4}Experimental Design}{9}{}%
-\contentsline {subsection}{\numberline {4.4.1}Experimental Scenarios:}{10}{}%
-\contentsline {subsection}{\numberline {4.4.2}Parameter Tuning:}{10}{}%
-\contentsline {section}{\numberline {4.5}Results}{10}{}%
-\contentsline {section}{\numberline {4.6} Analysis of Results}{10}{}%
-\contentsline {section}{\numberline {4.7}Observations:}{10}{}%
-\contentsline {section}{\numberline {4.8} Comparative Analysis}{10}{}%
-\contentsline {chapter}{\numberline {5}Conclusion and Scope for further Research}{11}{}%
-\contentsline {chapter}{\numberline {A}title of appendix}{12}{}%
-\contentsline {chapter}{References}{13}{}%
+\contentsline {section}{\numberline {2.3}Problem Statement and Contributions}{8}{}%
+\contentsline {chapter}{\numberline {3}Proposed Work}{9}{}%
+\contentsline {section}{\numberline {3.1}Chapter Introduction}{9}{}%
+\contentsline {section}{\numberline {3.2}Proposed Work}{9}{}%
+\contentsline {subsection}{\numberline {3.2.1} Objectives of the Proposed Work}{12}{}%
+\contentsline {section}{\numberline {3.3} Methodology}{13}{}%
+\contentsline {subsection}{\numberline {3.3.1}Overview of the Approach:}{13}{}%
+\contentsline {subsection}{\numberline {3.3.2}Dataset Selection:}{14}{}%
+\contentsline {subsection}{\numberline {3.3.3}Algorithm/Model Design:}{16}{}%
+\contentsline {subsection}{\numberline {3.3.4}Tools and Technologies:}{17}{}%
+\contentsline {subsection}{\numberline {3.3.5}Algorithm or Model Description}{18}{}%
+\contentsline {subsection}{\numberline {3.3.6} Expected Outcomes}{21}{}%
+\contentsline {subsection}{\numberline {3.3.7}Advantages of the Proposed Work}{22}{}%
+\contentsline {subsection}{\numberline {3.3.8}Limitations and Assumptions}{22}{}%
+\contentsline {chapter}{\numberline {4}Experimentation and Result Analysis}{23}{}%
+\contentsline {section}{\numberline {4.1}Experimental Setup}{23}{}%
+\contentsline {section}{\numberline {4.2}Datasets:}{23}{}%
+\contentsline {section}{\numberline {4.3}Evaluation Metrics:}{23}{}%
+\contentsline {section}{\numberline {4.4}Experimental Design}{23}{}%
+\contentsline {subsection}{\numberline {4.4.1}Experimental Scenarios:}{24}{}%
+\contentsline {subsection}{\numberline {4.4.2}Parameter Tuning:}{24}{}%
+\contentsline {section}{\numberline {4.5}Results}{24}{}%
+\contentsline {section}{\numberline {4.6} Analysis of Results}{24}{}%
+\contentsline {section}{\numberline {4.7}Observations:}{24}{}%
+\contentsline {section}{\numberline {4.8} Comparative Analysis}{24}{}%
+\contentsline {chapter}{\numberline {5}Conclusion and Scope for further Research}{25}{}%
+\contentsline {section}{\numberline {5.1}Conclusion}{25}{}%
+\contentsline {section}{\numberline {5.2}Future Scope}{26}{}%
+\contentsline {chapter}{\numberline {A}title of appendix}{27}{}%
+\contentsline {chapter}{References}{28}{}%
 \contentsfinish 

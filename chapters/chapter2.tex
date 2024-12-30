@@ -7,17 +7,51 @@ There have been a significant amount of research to introduce Artificial Intelli
 
 \
 
-In the paper \textbf{Construction of deep learning-based disease detection model in plants} Minah Jung et al. proposed a Deep Learning based framework for the construction of disease detection models in plants. The solution is designed to work in three steps namely: Crop Classification, Disease Detection and Disease Classification\cite{jung2023construction}. The segregation of responsibility and labour in the proposed solution can be leveraged to efficiently scale the built solution. Also as the division on labour is clear and strict the retraining cost for the solution can be minimized by limiting the changes to the concerned model. Even though the solution developed in the paper have inconsistent performance across different plant species, the modularity of the architecture allows us to correct what went wrong without disturbing what went right. Even though the proposed solution can be horizontally scaled on demand due to it's well defined modularity, an ill deployed solution can be computationally expensive and can be heavy on computation due to large chain of action. This introduces the cost of latency in return for the ease of systematic and efficient training and deployment. 
+In the paper \textbf{Construction of deep learning-based disease detection model in plants} in the year 2023, Minah Jung et al. proposed a Deep Learning based framework for the construction of disease detection models in plants. The solution is designed to work in three steps namely: Crop Classification, Disease Detection and Disease Classification\cite{jung2023construction}. The segregation of responsibility and labour in the proposed solution can be leveraged to efficiently scale the built solution. Also as the division on labour is clear and strict the retraining cost for the solution can be minimized by limiting the changes to the concerned model. Even though the solution developed in the paper have inconsistent performance across different plant species, the modularity of the architecture allows us to correct what went wrong without disturbing what went right. Even though the proposed solution can be horizontally scaled on demand due to it's well defined modularity, an ill deployed solution can be computationally expensive and can be heavy on computation due to large chain of action. This introduces the cost of latency in return for the ease of systematic and efficient training and deployment. 
 
 \
 
-In the paper \textbf{Dense convolutional neural networks based multiclass plant disease detection and classification using leaf images }, Vibhav et al. proposed a Dense Neural Network architecture for plant disease classification. The proposed solution is highly accurate on the used dataset with an impressive response time of 16ms per image for classification. Even though the proposed solution's performance is inconsistent across different classes, the paper sheds light on how a centralized monolithic model performs in the disease detection tasks. In contrast to the Minah Jung et al's work the current solution may not have a good division of responsibility and retraining efficiency, the solution boasts a significantly better performance in deployment. The paper does not provide any information about the steps taken to clean or balance the dataset for training.
+In the paper \textbf{Dense convolutional neural networks based multiclass plant disease detection and classification using leaf images } in the year 2021, Vibhav et al. proposed a Dense Neural Network architecture for plant disease classification. The proposed solution is highly accurate on the used dataset with an impressive response time of 16ms per image for classification. Even though the proposed solution's performance is inconsistent across different classes, the paper sheds light on how a centralized monolithic model performs in the disease detection tasks. In contrast to the Minah Jung et al's work the current solution may not have a good division of responsibility and retraining efficiency, the solution boasts a significantly better performance in deployment. The paper does not provide any information about the steps taken to clean or balance the dataset for training.
 
-Do a literature survey and identify five most suitable base papers that align with your project. Select the top journal/conference paper which are recent in the area, which has addressed this problem. For each of those papers, write a
-paragraph that subsumes, Contributions of the paper: (A short paragraph of less than 50 words) , Limitations of the paper : (A short paragraph of less than 50 words) , Open Problems/Future work possible: (Enumerate the list) 
+\
 
-Review existing products, tools, or technologies solving similar problems.
-Include market comparisons or feature analysis.
+In the paper \textbf{Plant Disease Detection Using Image Processing and Machine Learning} in the year 2021, the authors Pranesh et al. introduces statistical machine learning and image processing techniques to detect plant diseases. The algorithms proposed is explainable and a lot of information is given about feature extration for machine learning to solve the task at hand. Even though the paper does not explore any Deep Learning based solutions, the algorithm is logically explainable and the solution is light on resource usage. The solution is not reliable and performant due to the use of just machine learning techniques without any introduction of deep learning. 
+
+\
+
+In the paper \textbf{Plant leaf disease detection using computer vision and machine learning
+algorithms} in the year 2022, Sunil et al. introduced innovative technologies to detect plant diseases from leaf images. The study gives an exhaustive review and benchmarks of a wide range of classification algorithms in solving the plant disease detection problem. Even though the solutions provided in the paper are not properly presented and justified the paper contributes by providing base line metrics for further studies to improve.
+
+\
+
+In the year 2018, with the paper \textbf{Plant Disease Detection Using Machine Learning}, Shima et al. provided an exhaustive review of the performance of various machine learning techniques in the context of plant disease detection. The paper sheds light on the feature engineering for the task of plant disease diagnosis. This is one of the few papers that mentioned about the performance of the developed solution in deployment. The authors developed and deployed the solution as a server-based mobile application and provided its benchmarks. The paper is old and does not cover any scope of Deep Learning but it is considered a valuable resource to study feature extraction and engineering for the task of plant disease detection due to its very insightful presentation of feature selection and extraction.
+
+\
+
+All these papers and their results act as a starting point to engineer our solution. All the limitations and contributions of the previous works are consolidated in Table 2.1.
+
+\begin{table}[h!]
+    \centering
+    \caption{Comparison of Related Works}
+    \begin{tabular}{|p{5cm}|p{5cm}|p{5cm}|}
+    \hline
+    \textbf{Paper Title} & \textbf{Contribution} & \textbf{Limitations} \\ \hline
+    \textit{Construction of deep learning‑based disease detection model in plants} & Development of a Deep learning-based framework for the construction of disease detection models in plates. The solution is designed to work in three steps namely: crop classification, disease detection, and disease classification. & The proposed solution's performance is inconsistent over different plant species. But this can be improved with appropriate adjustments. The model is robust but heavy on computation  \\ \hline
+
+    \textit{Dense convolutional neural networks based multiclass plant disease detection and classification using leaf images} & Dense Neural Network Architecture for plant disease classification. The solution provided is highly accurate on the tested dataset. The model also boasts an impressive 16ms response time for classifying an image & he proposed solution’s performance is inconsistent over different plant species. 
+    No data is provided about whether the datasets are balanced
+      \\ \hline
+
+      \textit{Plant Disease Detection Using Image Processing and Machine Learning} & Plant disease detection using statistical machine learning and image processing algorithm. Interesting approach to feature extraction and selection. & The paper does not explore any DL solutions for the problem. The solution is more explainable but less performant due to the use of machine learning techniques without deep learning.  \\ \hline
+
+
+      \textit{Plant leaf disease detection using computer vision and machine learning algorithms} & bring awareness about the innovative technologies to detect plant diseases from plant leaf images. The study presents the performance of a wide range of classification algorithms for the task at hand. & Ill-phrased or bad presentation is observed in the paper. \\ \hline
+
+      \textit{Plant Disease Detection Using Machine Learning} & The paper provides an exhaustive review of the performance of various machine-learning techniques in the context of plant disease detection. The paper shed light on feature engineering for the task of plan disease classification. One of the few papers that mention the deployment of the developed solution as a server-based or mobile-based application & The paper is old and does not cover any applications of deep learning. But it is considered a valuable resource due to its very insightful presentation of feature extraction and selection \\ \hline
+
+    \end{tabular}
+    \label{tab:comparison}
+\end{table}
 
 \section{Research Gap/ Scope for improvement and innovation}
 

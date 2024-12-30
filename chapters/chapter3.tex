@@ -68,36 +68,32 @@ The dataset for training the model is a careful combination of the following dat
 
 \
 
-Plant-Doc dataset: \url{https://github.com/pratikkayal/PlantDoc-Dataset} 
+Plant-Doc dataset: https://github.com/pratikkayal/PlantDoc-Dataset 
 
-\
+PlantVillage dataset: https://www.kaggle.com/datasets/emmarex/plantdisease
 
-PlantVillage dataset: \url{https://www.kaggle.com/datasets/emmarex/plantdisease}
+iBean dataset: https://github.com/AI-Lab-Makerere/ibean
 
-\
+Citrus leaves dataset : https://www.tensorflow.org/datasets/catalog/citrus\_leaves
 
-iBean dataset: \url{https://github.com/AI-Lab-Makerere/ibean}
-
-\
-
-Citrus Leaves dataset: \url{https://www.tensorflow.org/datasets/catalog/citrus_leaves}
-
-\
-
-Rice Leaf Disease dataset: \url{https://www.kaggle.com/datasets/vbookshelf/rice-leaf-diseases}
+Rice Leaf Disease dataset: https://www.kaggle.com/datasets/vbookshelf/rice-leaf-diseases
 
 \
 
 The dataset finally prepared has approximately 21000 images spanning across 17 classes of plants.
 
+\
+
  \textbf{Note:} The number of images in some classes in the dataset prepared is significantly lower compared to the other classes. This imbalance is a result of the compilation of multiple data sources to prepare a master dataset with maximum available data. This makes the problem a long-tail classification problem which can be solved through some preprocessing methods and training methods
 
 
-\begin{center}
-    \includegraphics[scale=0.5]{images/ds.png}
-    
+ \begin{figure}[h!]
+    \centering
+    \includegraphics[scale=0.5]{ds.png}
     \caption{Structure of the dataset}
-\end{center}
+    \label{fig:dataset_structure}
+\end{figure}
+
 
 
 The foundation of this research rests upon a meticulously curated dataset that combines multiple established plant disease image collections with newly gathered samples. The consolidated dataset integrates images from diverse sources including the Plant-Doc dataset, PlantVillage dataset, iBean dataset, Citrus Leaves dataset, and Rice Leaf Disease dataset, supplemented by direct image collection following standardized guidelines. This comprehensive approach has yielded approximately 21,000 images distributed across 17 distinct plant classes, creating a robust foundation for model training.
@@ -192,17 +188,22 @@ The current stage of this project is primarily focused on early development and 
 
 Currently, the prediction and language processing systems are hosted online, offering promising capabilities in addressing the identified problem domain. However, there remains considerable scope for improving their performance and expanding their utility. At this stage, the language model relies on a predefined set of static answers tailored to a limited range of frequently asked questions, specifically focusing on diagnosing a single type of plant disease. Ongoing development efforts aim to transition from this rudimentary setup to a more robust, full-text processing system. The end goal is to deploy this enhanced model across multiple low-resource servers, leveraging freely available hosting solutions to ensure widespread accessibility without incurring significant costs.
 
-\begin{center}
-    \includegraphics[scale=0.5]{images/architecture.jpg}
-    
-    \caption{Client-Server Architecture}
-\end{center}
 
-\begin{center}
+\begin{figure}[h!]
+    \centering
+    \includegraphics[scale=0.5]{architecture.jpg}
+    \caption{Client-Server Architecture}
+    \label{fig:client_server_arch}
+\end{figure}
+
+
+\begin{figure}[h!]
+    \centering
     \includegraphics[scale=0.5]{images/chatbot_arch.jpg}
-    
     \caption{Chatbot Architecture}
-\end{center}
+    \label{fig:chatbot_arch}
+\end{figure}
+
 
 \subsection{Algorithm or Model Description}
 
