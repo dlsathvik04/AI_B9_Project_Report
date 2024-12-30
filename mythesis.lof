@@ -3,15 +3,15 @@
 \contentsline {figure}{\numberline {1.1}{\ignorespaces Decline in contribution of agriculture to India's GDP}}{3}{}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Structure of the dataset}}{15}{}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Client-Server Architecture}}{18}{}%
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Chatbot Architecture}}{19}{}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Structure of the dataset}}{16}{}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Client-Server Architecture}}{19}{}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Chatbot Architecture}}{20}{}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Class distribution of the dataset used for training}}{24}{}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces feature extraction for SVM}}{25}{}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Bias due to Conditions during capture}}{31}{}%
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Model Performance Comparison}}{33}{}%
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Model Latency and resource usage Comparison}}{34}{}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Class distribution of the dataset used for training}}{25}{}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces feature extraction for SVM}}{26}{}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Bias due to Conditions during capture}}{32}{}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Model Performance Comparison}}{34}{}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Model Latency and resource usage Comparison}}{35}{}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \contentsfinish 
