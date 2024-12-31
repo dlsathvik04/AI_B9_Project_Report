@@ -159,6 +159,13 @@ The model got trained for a total of 34 epochs. The model was eventually stopped
     \label{tab:classification_report_mnv2}
 \end{table}
 
+\begin{figure}[h!]
+    \centering
+    \includegraphics[scale=0.3]{mnv2_cm.png}
+    \caption{Confusion Matrix for MobileNetV2}
+    \label{fig:mnv2_cm}
+\end{figure}
+
 \subsection{ResNet50}
 
 The ResNet50 model is trained in the mentioned conditions. The model recorded a trining speed of nearly 75ms per training step. When model is used for prediction of single images (without batch prediction), the model recorded a speed of approximately 75ms per image. 
@@ -198,6 +205,14 @@ The model got trained for a total of 38 epochs. The model was eventually stopped
     \caption{Classification Report for ResNet50}
     \label{tab:classification_report_rn50}
     \end{table}
+
+    \begin{figure}[h!]
+        \centering
+        \includegraphics[scale=0.3]{rn50_cm.png}
+        \caption{Confusion Matrix for ResNet50}
+        \label{fig:rn50_cm}
+    \end{figure}
+
     
 \subsection{EfficientNetB0}
 
@@ -240,6 +255,14 @@ The model got trained for a total of 38 epochs. The model was eventually stopped
 \end{table}
 
 
+\begin{figure}[h!]
+    \centering
+    \includegraphics[scale=0.3]{enb0_cm.png}
+    \caption{Confusion Matrix for EfficientNetB0}
+    \label{fig:enb0_cm}
+\end{figure}
+
+
 \subsection{InceptionV3}
 
 The InceptionV3 model is trained in the mentioned conditions. The model recorded a trining speed of nearly 50ms per training step. When model is used for prediction of single images (without batch prediction), the model recorded a speed of approximately 64ms per image. 
@@ -280,6 +303,13 @@ The model got trained for full 40 epochs till limit. The model recorded a test a
     \label{tab:classification_report_inv3}
 \end{table}
 
+\begin{figure}[h!]
+    \centering
+    \includegraphics[scale=0.3]{iv3_cm.png}
+    \caption{Confusion Matrix for InceptionV3}
+    \label{fig:iv3_cm}
+\end{figure}
+
 \subsection{DenseNet121}
 
 The DenseNet121 model is trained in the mentioned conditions. The model recorded a trining speed of nearly 68ms per training step. When model is used for prediction of single images (without batch prediction), the model recorded a speed of approximately 76ms per image. 
@@ -319,6 +349,13 @@ The model got trained for a total of 33 epochs. The model was eventually stopped
     \caption{Classification Report for DenseNet121}
     \label{tab:classification_report_dn121}
     \end{table}
+
+    \begin{figure}[h!]
+        \centering
+        \includegraphics[scale=0.3]{dn_121_cm.png}
+        \caption{Confusion Matrix for DenseNet121}
+        \label{fig:dn_121_cm}
+    \end{figure}
 
 \subsection{Google/ViT-base-patch16-224}
 
@@ -364,6 +401,13 @@ The model got trained for a total of 33 epochs. The model was eventually stopped
     \label{tab:classification_report}
 \end{table}
 
+\begin{figure}[h!]
+    \centering
+    \includegraphics[scale=0.5]{vit_cm.png}
+    \caption{Confusion Matrix for Vision Transformer}
+    \label{fig:vit_cm}
+\end{figure}
+
 
 \section{ Analysis of Results}
 
@@ -371,7 +415,7 @@ Among the Deep Neural networks without any self attention mechanism EfficientNet
 
 \
 
-The Vision Transformer model performed the best with 99.8\% accuracy. The model is heavy on resource utilization but it is the only model that is properly generelized over all the classes. The attention mechanism helps to focus on the parts of the image that really matter. While the EfficientNetB0 is a good pick for edge deployment, the ViT model is ideal for cloud deployment.
+The Vision Transformer model performed the best with 99\% accuracy. The model is heavy on resource utilization but it is the only model that is properly generelized over all the classes. The attention mechanism helps to focus on the parts of the image that really matter. While the EfficientNetB0 is a good pick for edge deployment, the ViT model is ideal for cloud deployment.
 
 \
 
@@ -404,7 +448,7 @@ The same architectures replicated form the paper showed inconsistent results due
     \begin{tabular}{|m{5cm}|m{4cm}|m{3cm}|m{3cm}|}
     \hline
     \textbf{Research Paper} & \textbf{Dataset Used} & \textbf{Accuracy} & \textbf{Model Used} \\ \hline
-    Current Project & PlantVillage + Manually collected data & 99.8\% & Vision Transformer \\ \hline
+    Current Project & PlantVillage + Manually collected data & 99\% & Vision Transformer \\ \hline
     Construction of deep learning-based disease detection model in plants & PlantVillage dataset & 99.69\% & GoogleNet \\ \hline
     Dense convolutional neural networks based multiclass plant disease detection and classification using leaf images & PlantVillage dataset & 99.25\% & DenseNet201 \\ \hline
     \end{tabular}
@@ -423,11 +467,12 @@ The Vision Transformer model has superior performance but it is heavy on resourc
     \label{fig:model_performance}
 \end{figure}
 
+
 The training cost of the model can be measured or interpreted through the time taken for a single train step. This metric is useful in comparing the training efficiencies of different models. From the figure 4.5 it is evident that the MobileNetV2 is most efficient and is light on resources, while the Vision Transformer model is nearly thrice as heavy on resources in both training and inference. 
 
 \begin{figure}[h!]
     \centering
-    \includegraphics[scale=0.5]{latencies.png}
+    \includegraphics[scale=0.45]{latencies.png}
     \caption{Model Latency and resource usage Comparison}
     \label{fig:latency}
 \end{figure}

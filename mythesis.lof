@@ -3,15 +3,21 @@
 \contentsline {figure}{\numberline {1.1}{\ignorespaces Decline in contribution of agriculture to India's GDP}}{3}{}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Structure of the dataset}}{16}{}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Client-Server Architecture}}{19}{}%
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Chatbot Architecture}}{20}{}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Structure of the dataset}}{15}{}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Client-Server Architecture}}{18}{}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Chatbot Architecture}}{19}{}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Class distribution of the dataset used for training}}{25}{}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces feature extraction for SVM}}{26}{}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Bias due to Conditions during capture}}{32}{}%
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Model Performance Comparison}}{34}{}%
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Model Latency and resource usage Comparison}}{35}{}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Class distribution of the dataset used for training}}{24}{}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces feature extraction for SVM}}{25}{}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Confusion Matrix for MobileNetV2}}{27}{}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Confusion Matrix for ResNet50}}{29}{}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Confusion Matrix for EfficientNetB0}}{30}{}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Confusion Matrix for InceptionV3}}{30}{}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Confusion Matrix for DenseNet121}}{32}{}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Confusion Matrix for Vision Transformer}}{34}{}%
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Bias due to Conditions during capture}}{35}{}%
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Model Performance Comparison}}{36}{}%
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Model Latency and resource usage Comparison}}{36}{}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \contentsfinish 

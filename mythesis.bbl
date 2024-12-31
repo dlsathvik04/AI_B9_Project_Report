@@ -5,4 +5,26 @@ M.~Jung, J.~S. Song, A.-Y. Shin, B.~Choi, S.~Go, S.-Y. Kwon, J.~Park, S.~G.
   Park, and Y.-M. Kim, ``Construction of deep learning-based disease detection
   model in plants,'' {\em Scientific reports}, vol.~13, no.~1, p.~7331, 2023.
 
+\bibitem{tiwari2021dense}
+V.~Tiwari, R.~C. Joshi, and M.~K. Dutta, ``Dense convolutional neural networks
+  based multiclass plant disease detection and classification using leaf
+  images,'' {\em Ecological Informatics}, vol.~63, p.~101289, 2021.
+
+\bibitem{kulkarni2021plant}
+P.~Kulkarni, A.~Karwande, T.~Kolhe, S.~Kamble, A.~Joshi, and M.~Wyawahare,
+  ``Plant disease detection using image processing and machine learning,'' {\em
+  arXiv preprint arXiv:2106.10698}, 2021.
+
+\bibitem{harakannanavar2022plant}
+S.~S. Harakannanavar, J.~M. Rudagi, V.~I. Puranikmath, A.~Siddiqua, and
+  R.~Pramodhini, ``Plant leaf disease detection using computer vision and
+  machine learning algorithms,'' {\em Global Transitions Proceedings}, vol.~3,
+  no.~1, pp.~305--310, 2022.
+
+\bibitem{ramesh2018plant}
+S.~Ramesh, R.~Hebbar, M.~Niveditha, R.~Pooja, N.~Shashank, P.~Vinod, {\em
+  et~al.}, ``Plant disease detection using machine learning,'' in {\em 2018
+  International conference on design innovations for 3Cs compute communicate
+  control (ICDI3C)}, pp.~41--45, IEEE, 2018.
+
 \end{thebibliography}
